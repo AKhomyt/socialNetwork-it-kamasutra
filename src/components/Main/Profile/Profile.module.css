@@ -1,0 +1,109 @@
+#profile {
+    display: grid;
+    width: max-content;
+    height: max-content;
+    color: #fff;
+    border-radius: 0 0 25px 0;
+    margin: 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.75);
+    font: 1.1rem "Comic Sans MS";
+    font-weight: bold;
+    text-shadow: -1px 0 5px #000, 0 1px 5px #000, 1px 0 5px #000, 0 -1px 5px #000;
+    animation: .5s linear 1 opacityStart;
+    grid-gap: 0 25px;
+    grid-template-areas:
+            'p d';
+}
+
+@keyframes opacityStart {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#profilePhoto {
+    grid-area: p;
+    width: max-content;
+    height: max-content;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+}
+
+#profileData {
+    grid-area: d;
+}
+
+#fullName {
+    font-size: 1.5rem;
+    color: #f5ffac;
+}
+
+.settImg {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    transition: all .5s;
+}
+
+.settImg:hover {
+    background: transparent;
+    box-shadow: -1px 0 17px #c1fff7, 0 1px 17px #C1FFF7FF, 1px 0 17px #C1FFF7FF, 0 -1px 17px #C1FFF7FF;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+#aboutMe {
+    width: max-content;
+    max-width: 250px;
+    height: max-content;
+    border-bottom: #595959 solid 1px;
+}
+
+#lookingForAJob {
+    display: block;
+    width: 300px;
+    height: max-content;
+    word-wrap: break-word;
+    padding: 15px;
+    background: rgba(83, 83, 83, 0.35);
+    border: #75ffed solid 1px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#status {
+    width: max-content;
+    max-width: 300px;
+    height: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-shadow: -1px 0 18px rgba(255, 255, 255, 0.16),
+    0 1px 18px rgba(255, 255, 255, 0.16),
+    1px 0 18px rgba(255, 255, 255, 0.16),
+    0 -1px 18px rgba(255, 255, 255, 0.16);
+}
+
+#status textarea {
+    font: 1.1rem 'Comic Sans MS';
+    padding: 10px;
+    border: none;
+    margin: 0;
+    resize: none;
+    width: 260px;
+    height: 100px;
+}
+
+@media (max-width: 790px) {
+    #profile {
+        width: 479px;
+        display: inline-block;
+    }
+}

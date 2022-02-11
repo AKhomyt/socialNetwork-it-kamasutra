@@ -1,0 +1,42 @@
+#user {
+    color: #fff;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.55);
+    border: #fff solid 2px;
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 25px;
+    text-shadow: -1px 0 1px #000, 0 1px 1px #000, 1px 0 1px #000, 0 -1px 1px #000;
+    animation: 1s linear 1 opacityStart;
+}
+@keyframes opacityStart {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#user img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#userName {
+    margin-left: 15px;
+    word-wrap: break-word;
+    float: left;
+    font: 1.1rem "Comic Sans MS";
+    color: #f5ffac;
+    text-shadow: -1px 0 5px #000, 0 1px 5px #000, 1px 0 5px #000, 0 -1px 5px #000;
+}
+#user button {
+    display: block;
+    clear: both;
+    width: 100px;
+    font: 1.1rem "Comic Sans MS";
+    border-radius: 25%;
+    padding: 5px;
+}

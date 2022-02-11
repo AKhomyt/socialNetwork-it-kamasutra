@@ -1,0 +1,32 @@
+#header {
+    grid-area: h;
+    color: #fff;
+    font: 1.5rem "Comic Sans MS";
+    background: rgba(0, 0, 0, 0.75);
+    border-bottom: #fff double 5px;
+}
+#login {
+    margin: 15px;
+    float: right;
+}
+#header button {
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    font: 1.1rem "Comic Sans MS";
+    float: right;
+}
+
+@media screen and (min-width: 479px) {
+    /* стили для телефонов - начало */
+}
+
+@media screen and (min-width: 767px) {
+    /* стили для средних планшетов - начало */
+}
+
+@media screen and (min-width: 991px) {
+    /* стили для больших планшетов - начало */
+}
+
+/* Стили для десктопа - начало */

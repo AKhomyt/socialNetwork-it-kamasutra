@@ -1,0 +1,18 @@
+#main {
+    overflow: auto;
+    grid-area: m;
+}
+
+@media screen and (min-width: 479px) {
+    /* стили для телефонов - начало */
+}
+
+@media screen and (min-width: 767px) {
+    /* стили для средних планшетов - начало */
+}
+
+@media screen and (min-width: 991px) {
+    /* стили для больших планшетов - начало */
+}
+
+/* Стили для десктопа - начало */

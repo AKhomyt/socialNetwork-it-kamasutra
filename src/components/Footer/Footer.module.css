@@ -1,0 +1,42 @@
+#footer {
+    grid-area: f;
+    padding: 25px;
+    color: #fff;
+    font: 1.2rem "Comic Sans MS";
+    border-top: #fff double 5px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 479px) {
+    /* стили для телефонов - начало */
+}
+
+@media screen and (min-width: 767px) {
+    /* стили для средних планшетов - начало */
+}
+
+@media screen and (min-width: 991px) {
+    /* стили для больших планшетов - начало */
+}
+#contacts {
+    float: left;
+}
+#contacts a {
+    display: block;
+    text-decoration: none;
+    color: #c1fff7;
+}#contacts a:hover {
+     color: #fff;
+     text-shadow: -1px 0 25px #fff, 0 1px 25px #fff, 1px 0 25px #000, 0 -1px 25px #fff;
+ }
+#myContacts a {
+    display: block;
+    text-decoration: none;
+    color: #c1fff7;
+}#myContacts a:hover {
+     color: #fff;
+     text-shadow: -1px 0 25px #fff, 0 1px 25px #fff, 1px 0 25px #000, 0 -1px 25px #fff;
+ }
+#myContacts {
+    float: right;
+}
