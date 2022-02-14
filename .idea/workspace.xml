@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4db96b1f-a400-4fbe-abbc-b4decfa10fa0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/API/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Imeges/gifka-dozhd-18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Imeges/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Imeges/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Imeges/water-35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Main.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/Profile.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileStatus.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/ProfileForm/ProfileForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/ProfileForm/ProfileForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Users/List/List.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Users/List/List.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Users/User/User.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Users/User/User.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Users/Users.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Users/Users.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebare.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Test/Testing.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customsHooksAndFunctions/addReduser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customsHooksAndFunctions/compareObjects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/testing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +151,10 @@
       <workItem from="1644312038594" duration="18032000" />
       <workItem from="1644390914752" duration="2810000" />
       <workItem from="1644580169802" duration="6128000" />
+      <workItem from="1644589211898" duration="195000" />
+      <workItem from="1644763234450" duration="616000" />
+      <workItem from="1644822865603" duration="8000" />
+      <workItem from="1644852418051" duration="112000" />
     </task>
     <servers />
   </component>
