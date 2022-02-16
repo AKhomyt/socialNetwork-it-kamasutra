@@ -94,12 +94,11 @@ let initializationState = {...};
 +const btanchState = (state = initializationState, action)=> addReducer(state, action);
 
 -const actionCreator = (dataAC)=> ({type: 'type', dataAC});
-+const actionCreator = (dataAC)=> setActionCreater('type', 'subbranchName_1', dataAC);;
++const actionCreator = (dataAC)=> setActionCreater('type', dataAC);;
 const thunk = (data)=> dispatch => {
--    dispatch(actionCreator(data));
-+    dispatch(setActionCreater('type', data));//case 'type': return {subbranchName: data};
+    dispatch(setActionCreater('type', data));//case 'type': return {...state, data};
     or
-    setDispatch(dispatch);//it is enough to pass the 'dispatch' function once
+    setDispatch(dispatch);
     setActionCreater('type_1', data_1);
     setActionCreater('type_2', data_2);
     setActionCreater('type_3', data_3);
