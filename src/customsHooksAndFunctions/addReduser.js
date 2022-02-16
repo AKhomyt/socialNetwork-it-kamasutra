@@ -16,13 +16,6 @@ class ActionsClass {
         if (Object.keys(action).length === 1) {
             return state;
         }
-        // if (!this.compareActions(this.previousAction, action)) {
-        //     console.log(this.previousAction);
-        //     console.log(action);
-        //     console.log('-------------------------------');
-        // }
-        //this.dispatching = this.compareActions(this.previousAction, action);
-        //this.previousAction = action;
         for (let i = 0; i < this.arrayOfTypeNames.length; i++) {
             if (action.type !== this.arrayOfTypeNames[i]) {
                 continue;
