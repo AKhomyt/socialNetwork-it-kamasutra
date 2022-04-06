@@ -28,9 +28,9 @@ export const List = () => {
         <div id={s.list}>{listArray.map(elem => <span key={'l1' + keyMap++} onClick={elemListClick}
                                                       className={s.listElements}>{elem} </span>)}</div>
         <label>
+            Find: <input name={'find'} type={'text'} onBlur={findBlur} size={17}/>
             {
                 authId ? <form onSubmit={findSubmit}>
-                    Find: <input name={'find'} type={'text'} onBlur={findBlur} size={17}/>
                     Friends: <input name={'friends'} type={'checkbox'} onChange={checkboxChenge}/>
                     {/*{allUsers.length === 0 ? <button onClick={clickGetAllUsers}>Get All Users</button> : <div>*/}
                     {/*    <button onClick={clickWithAvatar}>With Avatar</button>*/}

@@ -8,7 +8,6 @@ import {authThunk} from "./redux/auth";
 import {getUsersThunk} from "./redux/users";
 import {Header} from "./components/Header/Header";
 import {useNavigate} from "react-router-dom";
-//import {Testing} from "./components/Test/Testing";
 
 function App() {
     const [users, auth] = [useSelector(state => state.users), useSelector(state => state.auth)];

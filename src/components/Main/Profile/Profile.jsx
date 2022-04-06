@@ -40,12 +40,12 @@ export let Profile = () => {
             <div id={s.profileData}>
                 <div id={s.fullName}>
                     {user.fullName + ' (id: ' + user.userId + ')'}<NavLink to={`/profileForm`}>
-                    {auth.id == params.id && <img className={s.settImg} src={setting} alt={'No find image...'}/>}
+                    {+auth.id === +params.id && <img className={s.settImg} src={setting} alt={'No find image...'}/>}
                 </NavLink>
                 </div>
                 <div id={s.aboutMe}>{user.aboutMe && <span>{user.aboutMe}</span>}</div>
                 {user.lookingForAJob ? <div id={s.lookingForAJob}>
-                    Ищю работу: {user.lookingForAJobDescription}
+                    <span style={{color: '#ffc'}}>looking for a job:</span> {user.lookingForAJobDescription}
                 </div> : ''}
                 {contacts.length ? <>
                     Contacts:

@@ -24,9 +24,9 @@ export const User = (props) => {
     useEffect(() => setFollow(user.followed), [user.followed]);
 
     return <div id={s.user}>
-        {user.photos.small ? <img src={user.photos.small} onClick={clickFoto} alt={'no find image'}/> :
-            <img src={image} onClick={clickFoto} alt={'no find image'}/>}
-        <div id={s.userName}>
+            {user.photos.small ? <img id={s.foto} src={user.photos.small} onClick={clickFoto} alt={'no find image'}/> :
+            <img id={s.foto} src={image} onClick={clickFoto} alt={'no find image'}/>}
+        <div id={s.userName} onClick={clickFoto}>
             {user.name}
             <div>(ID: {user.id})</div></div>
             <button onClick={followedClick}>{followed ? 'follow' : 'unfollow'}</button>

@@ -32,6 +32,11 @@
     color: #f5ffac;
     text-shadow: -1px 0 5px #000, 0 1px 5px #000, 1px 0 5px #000, 0 -1px 5px #000;
 }
+#userName:hover {
+    cursor: default;
+    color: #000;
+    text-shadow: -1px 0 4px #fff, 0 1px 4px #fff, 1px 0 4px #fff, 0 -1px 4px #fff;
+}
 #user button {
     display: block;
     clear: both;
@@ -39,4 +44,7 @@
     font: 1.1rem "Comic Sans MS";
     border-radius: 25%;
     padding: 5px;
+}
+#foto:hover {
+    box-shadow: 2px 0 5px #fff;
 }

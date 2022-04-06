@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4db96b1f-a400-4fbe-abbc-b4decfa10fa0" name="Default Changelist" comment="" />
+    <list default="true" id="4db96b1f-a400-4fbe-abbc-b4decfa10fa0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Users/List/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Users/List/List.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Users/User/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Users/User/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Users/User/User.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Users/User/User.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Imeges" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -153,6 +162,7 @@
       <workItem from="1644822865603" duration="8000" />
       <workItem from="1644852418051" duration="112000" />
       <workItem from="1644989880707" duration="1042000" />
+      <workItem from="1649220875256" duration="2600000" />
     </task>
     <servers />
   </component>
