@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="All Places" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4db96b1f-a400-4fbe-abbc-b4decfa10fa0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeStyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Profile/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Profile/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ProfileForm/ProfileForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ProfileForm/ProfileForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Users/List/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Users/List/List.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Users/User/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Users/User/User.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Users/User/User.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Users/User/User.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Test/Testing.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customsHooksAndFunctions/addReduser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/customsHooksAndFunctions/addReduser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/testing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,18 +74,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="D:\WorkSpace\MyPojects\network\node_modules\eslint" />
-    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.eslint" value="D:\WorkSpace\MyPojects\GIT\network\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="D:\WorkSpace\MyPojects\GIT\network\node_modules\standard" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-    <property name="settings.editor.splitter.proportion" value="0.22520325" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.24290429" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\PhpStorm 2021.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -163,6 +186,9 @@
       <workItem from="1644852418051" duration="112000" />
       <workItem from="1644989880707" duration="1042000" />
       <workItem from="1649220875256" duration="2600000" />
+      <workItem from="1649343720187" duration="11292000" />
+      <workItem from="1649421205841" duration="3700000" />
+      <workItem from="1649427982282" duration="5147000" />
     </task>
     <servers />
   </component>
