@@ -1,18 +1,19 @@
 import s from './Profile.module.css'
 import { useDispatch, useSelector } from 'react-redux'
-import { profileThunk } from '../../../redux/profile'
+import { profileThunk, profileType } from '../../../redux/profile'
 import { NavLink, useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import profilePhoto from '../../../Imeges/images.png'
 import ProfileStatus from './ProfileStatus'
 import setting from '../../../Imeges/setting.png'
+import { authType } from '../../../redux/auth'
 
 export const Profile = () => {
-  const dispatch = useDispatch()
-  const params = useParams()
-  const auth = useSelector(state => state.auth)
-  const user = useSelector(state => state.profile)
-  const contacts = ((contacts) => {
+  const dispatch: any = useDispatch()
+  const params: any = useParams()
+  const auth = useSelector((state: { auth: authType }) => state.auth)
+  const user: any = useSelector((state: { profile: profileType}) => state.profile)
+  const contacts = ((contacts: any) => {
     const result = []
     for (const i in contacts) {
       if (contacts[i]) result.push([i, contacts[i]])
@@ -23,7 +24,7 @@ export const Profile = () => {
   let [hidden, setHidden] = useState(true)
   useEffect(() => {
     if (!isNaN(+params.id)) {
-      dispatch(profileThunk(params.id)).then(res => setHidden(res))
+      dispatch(profileThunk(params.id)).then((res: any) => setHidden(res))
     }
     return setHidden(true)
   }, [params.id])
@@ -62,8 +63,8 @@ export const Profile = () => {
                   contacts.map((elem) => {
                     return elem[1]
                       ? <tr key={keyMap++}>
-                          <td>{elem[1]}</td>
-                        </tr>
+                        <td>{elem[1]}</td>
+                      </tr>
                       : ''
                   })
                 }</tbody>

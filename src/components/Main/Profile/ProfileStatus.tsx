@@ -2,20 +2,22 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { api } from '../../../API/api'
-import { setStatusThunk } from '../../../redux/profile'
+import { profileType, setStatusThunk } from '../../../redux/profile'
 import s from './Profile.module.css'
+import { authType } from '../../../redux/auth'
 
 const ProfileStatus = () => {
-  const pageID = +useParams().id
-  const authID = useSelector(state => state.auth.id)
+  let pageID: any = useParams().id
+  pageID = pageID * 1
+  const authID = useSelector((state: { auth: authType }) => state.auth.id)
   const dispatch = useDispatch()
-  const status = useSelector(state => state.profile.status)
+  const status = useSelector((state: { profile: profileType }) => state.profile.status)
   // eslint-disable-next-line prefer-const
   let [key, setKey] = useState(true)
   const statusClick = () => {
     setKey(false)
   }
-  const statusInputForm = async (e) => {
+  const statusInputForm = async (e: any) => {
     e.preventDefault()
     if (e.target.value !== undefined) {
       e = e.target.value

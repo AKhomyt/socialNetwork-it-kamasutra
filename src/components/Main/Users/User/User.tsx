@@ -1,10 +1,10 @@
 import s from './User.module.css'
 import image from './../../../../Imeges/images.png'
 import { useNavigate } from 'react-router-dom'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { api } from '../../../../API/api'
 
-export const User = (props) => {
+export const User: React.FC<any> = (props) => {
   const user = { ...props }
   const [followed, setFollow] = useState(user.followed)
   const navigate = useNavigate()

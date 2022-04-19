@@ -5,7 +5,7 @@ import { loginThunk, logoutThunk } from '../../redux/auth'
 import { useEffect } from 'react'
 
 export const Header = () => {
-  const auth = useSelector(state => state.auth)
+  const auth = useSelector((state: any) => state.auth)
   const dispatch = useDispatch()
   const logout = async () => {
     dispatch(logoutThunk())
@@ -29,7 +29,7 @@ const AuthForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm()
   const serverError = ''
   const dispatch = useDispatch()
-  const onSubmit = async data => {
+  const onSubmit = async (data: any) => {
     dispatch(loginThunk(data))
   }
 

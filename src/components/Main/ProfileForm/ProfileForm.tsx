@@ -2,16 +2,17 @@ import s from './ProfileForm.module.css'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { setProfileThunk } from '../../../redux/profile'
+import { profileType, setProfileThunk } from '../../../redux/profile'
+import { authType } from '../../../redux/auth'
 
 export default function ProfileForm () {
   const { register, handleSubmit } = useForm()
-  const authId = useSelector(state => state.auth.id)
-  const profile = useSelector(state => state.profile)
+  const authId = useSelector((state: { auth: authType }) => state.auth.id)
+  const profile = useSelector((state: { profile: profileType }) => state.profile)
   const dispatch = useDispatch()
   const navigate = useNavigate()
 
-  const onSubmit = data => {
+  const onSubmit = (data: any) => {
     data = {
       aboutMe: data.aboutMe,
       lookingForAJob: data.lookingForAJob,

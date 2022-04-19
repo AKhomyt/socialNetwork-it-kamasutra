@@ -3,12 +3,11 @@ import { useDispatch, useSelector } from 'react-redux'
 import { List } from './List/List'
 import { User } from './User/User'
 import { useEffect } from 'react'
-import { getUsersThunk } from '../../../redux/users'
+import { getUsersThunk, userType } from '../../../redux/users'
 
 export const Users = () => {
-  const users = useSelector(state => state.users)
+  const users = useSelector((state: { users: userType }) => state.users)
   const dispatch = useDispatch()
-
   useEffect(() => {
     dispatch(getUsersThunk(users.count, users.page, users.term, users.friend))
   },
@@ -16,10 +15,10 @@ export const Users = () => {
   let mapKey = 1
   return users.items
     ? <div id={s.name}>
-      <List/>
-      {users.items.map(elem => {
-        return <User key={mapKey++} {...elem}/>
-      })}
-    </div>
+          <List/>
+          {users.items.map((elem: any) => {
+            return <User key={mapKey++} {...elem}/>
+          })}
+      </div>
     : <></>
 }

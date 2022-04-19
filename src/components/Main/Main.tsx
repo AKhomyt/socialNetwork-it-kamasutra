@@ -8,7 +8,8 @@ export const Main = () => {
   return <main id={s.main}>
     <Routes>
       <Route path={'/'}>
-        <Route exact path="/" element={<Users/>}/>
+        { /* <Route exact path="/" element={<Users/>}/> */ }
+        <Route path="/" element={<Users/>}/>
         <Route path={'profileForm'} element={<ProfileForm/>}/>
         <Route path={'profile/:id'} element={<Profile/>}/>
         <Route path={'users'} element={<Users/>}/>
